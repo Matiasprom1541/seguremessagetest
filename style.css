@@ -102,6 +102,18 @@ hr {
     word-wrap: break-word; /* Evita que el texto largo rompa el diseño */
 }
 
+.messagebox2 {
+    padding: 12px;
+    border-radius: 10px;
+    
+    width: fit-content;
+    max-width: 100%; /* Para que no pegue al borde derecho */
+    background-color: #3d3d3d;
+    margin-top: 10px;
+    margin-left:70%;
+    word-wrap: break-word; /* Evita que el texto largo rompa el diseño */
+}
+
 /* --- ÁREA DE CHAT --- */
 .chat {
     flex-grow: 1;
@@ -256,4 +268,13 @@ hr {
         max-width: 90%;
         font-size: 0.9rem;
     }
+}
+
+#amigos{
+position: absolute;
+color: black;
+top: auto;bottom: 0px;
+
+width:38vh;height:5vh;
+background: #00ff7f;
 }
